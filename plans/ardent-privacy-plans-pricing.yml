@@ -1,0 +1,19 @@
+generated: '2026-09-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.ardentprivacy.ai/pricing/
+sources:
+- https://www.ardentprivacy.ai/pricing/
+name: Ardent Privacy pricing
+audience: business-product
+pricing_basis: flat-platform
+plans:
+- name: Privacy Starter Bundle
+  price_text: $10K
+  description: Start your privacy program with $10K Full Privacy data impact assessment Privacy as a service and privacy program implementation
+    in one single bundle
+  features:
+  - Enterprise data mapping (technical) (DI)
+  - Privacy impact assessment (PI)
+  - Privacy by design implementation (PBDI)
+docs: https://www.ardentprivacy.ai/pricing/

@@ -1,23 +1,79 @@
 aid: ardent-privacy
+
 name: Ardent Privacy
-description: 'Ardent Privacy is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://storage.ghost.io/c/d4/1b/d41be213-aa43-42e1-bcac-9b7970940a7d/content/images/2026/05/Untitled-design--66-.png
+
+description: 'Ardent Privacy is a data privacy and protection company that helps businesses strengthen data privacy, adopt a data‑centric approach, and secure critical data where it resides. By providing tools and services for data‑centric security, Ardent Privacy enables organizations to protect personal information, comply with regulations, and build trust with customers.'
+
 url: https://raw.githubusercontent.com/api-evangelist/ardent-privacy/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
 - Company
-apis: []
+- Data-Privacy
+- Security
+- SaaS
+- Compliance
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/ardent-privacy-plans-pricing.yml
+- type: Hosts
+  url: hosts/ardent-privacy-hosts.yml
+- type: Vendors
+  url: vendors/ardent-privacy-vendors.yml
+- type: Support
+  url: https://www.ardentprivacy.ai/support/
+- type: PrivacyPolicy
+  url: https://www.ardentprivacy.ai/privacy-notice/
+- type: Pricing
+  url: https://www.ardentprivacy.ai/pricing/
+- type: Newsroom
+  url: https://www.ardentprivacy.ai/news/
+- type: Login
+  url: https://ucm.ardentprivacy.ai/ucm_client_portal/auth/login
+- type: Blog
+  url: https://www.ardentprivacy.ai/blog/
+- type: DomainSecurity
+  url: security/ardent-privacy-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.ardentprivacy.ai/
+
+apis: []
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-09-25'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://www.nasdaqprivatemarket.com/
+    status: 200
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 5
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
